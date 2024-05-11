@@ -1,0 +1,7 @@
+<!-- res/drawable/custom_edittext_background.xml -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/black"
+    android:radius="@dimen/_28dp">
+
+</ripple>
+
