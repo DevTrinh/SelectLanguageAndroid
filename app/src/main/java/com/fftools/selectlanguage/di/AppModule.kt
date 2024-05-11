@@ -1,8 +1,8 @@
-package com.fftools.selectlanguage
+package com.fftools.selectlanguage.di
 
-import com.fftools.selectlanguage.language.Language
-import com.fftools.selectlanguage.language.LanguageImpl
-import com.fftools.selectlanguage.language.LanguageViewModel
+import com.fftools.selectlanguage.model.language.Language
+import com.fftools.selectlanguage.model.language.LanguageImpl
+import com.fftools.selectlanguage.model.language.LanguageViewModel
 import org.koin.androidx.viewmodel.dsl.viewModel
 import org.koin.dsl.module
 

@@ -1,4 +1,4 @@
-package com.fftools.selectlanguage
+package com.fftools.selectlanguage.ui.activities
 
 import android.content.Intent
 import android.os.Bundle
@@ -7,8 +7,9 @@ import android.text.TextWatcher
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.fftools.selectlanguage.ui.adapter.LanguageAdapter
 import com.fftools.selectlanguage.databinding.ActivityLanguageBinding
-import com.fftools.selectlanguage.language.LanguageViewModel
+import com.fftools.selectlanguage.model.language.LanguageViewModel
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class LanguageActivity : AppCompatActivity() {

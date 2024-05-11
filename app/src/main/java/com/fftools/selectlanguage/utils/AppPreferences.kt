@@ -1,4 +1,4 @@
-package com.fftools.selectlanguage
+package com.fftools.selectlanguage.utils
 
 import android.content.Context
 import android.content.SharedPreferences

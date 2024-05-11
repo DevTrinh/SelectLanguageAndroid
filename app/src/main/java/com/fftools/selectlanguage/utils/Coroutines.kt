@@ -1,4 +1,4 @@
-package com.fftools.selectlanguage
+package com.fftools.selectlanguage.utils
 
 import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.Dispatchers

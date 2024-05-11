@@ -1,7 +1,7 @@
-package com.fftools.selectlanguage.language
+package com.fftools.selectlanguage.model.language
 
 import android.content.Context
-import com.fftools.selectlanguage.AppPreferences
+import com.fftools.selectlanguage.utils.AppPreferences
 import com.fftools.selectlanguage.R
 import java.util.Locale
 

@@ -1,4 +1,4 @@
-package com.fftools.selectlanguage
+package com.fftools.selectlanguage.ui.activities
 
 import android.app.LocaleManager
 import android.content.res.Configuration
@@ -6,11 +6,9 @@ import android.os.Build
 import android.os.Bundle
 import android.os.LocaleList
 import android.widget.Toast
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import com.fftools.selectlanguage.databinding.ActivityMainBinding
+import com.fftools.selectlanguage.utils.AppPreferences
 import java.util.Locale
 
 class MainActivity : AppCompatActivity() {

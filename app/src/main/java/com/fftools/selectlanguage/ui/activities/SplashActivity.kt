@@ -1,12 +1,12 @@
-package com.fftools.selectlanguage
+package com.fftools.selectlanguage.ui.activities
 
 import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+import com.fftools.selectlanguage.utils.Coroutines
+import com.fftools.selectlanguage.R
+import com.fftools.selectlanguage.utils.AppPreferences
 
 @SuppressLint("CustomSplashScreen")
 class SplashActivity : AppCompatActivity() {

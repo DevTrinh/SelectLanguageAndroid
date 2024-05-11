@@ -1,4 +1,4 @@
-package com.fftools.selectlanguage.language
+package com.fftools.selectlanguage.model.language
 
 interface Language {
     fun getAllLanguage(): MutableList<ItemLanguage>

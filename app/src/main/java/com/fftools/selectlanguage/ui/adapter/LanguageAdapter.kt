@@ -1,4 +1,4 @@
-package com.fftools.selectlanguage
+package com.fftools.selectlanguage.ui.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import androidx.recyclerview.widget.RecyclerView.ViewHolder
 import com.fftools.selectlanguage.databinding.ItemLanguageBinding
-import com.fftools.selectlanguage.language.ItemLanguage
+import com.fftools.selectlanguage.model.language.ItemLanguage
 
 class LanguageAdapter(
     private var list: MutableList<ItemLanguage>,

@@ -1,4 +1,4 @@
-package com.fftools.selectlanguage.language
+package com.fftools.selectlanguage.model.language
 
 data class ItemLanguage(
     var locale: String,
